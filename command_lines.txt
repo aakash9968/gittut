@@ -1,0 +1,24 @@
+git init - to initialise  a git file
+touch filename - to make a new file
+git status - to check untracked files
+git add filename - to add file to stage
+git commit -m "any message" - staged file is now added
+vi filename - to edit file
+esc :x - to exit file editer
+cat filename - display file content
+// You need to add and commit file after editing
+git restore --staged filename - to remove staged file
+git log - to view all history of file
+rm -rf filename - to delete file
+// to delete a file you also need to add and commit it
+// to restore previous version you need to copy id of commit just below it
+git restore id - restore prevous 
+// if ypu want dont want to commit any changes and want to save it to
+thrn stage them and use
+git stash - saves working directory 
+git stash pop - pops file into stage
+//if you want to delete stash saved files
+git stash clear - clears saved files
+//adding github url
+git remote add origin url - 
+
